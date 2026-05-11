@@ -20,7 +20,7 @@ My approach is simple:
 
 ---
 
-## <img src="puzzle.gif" width="50" align="center" alt="puzzle" /> Featured Projects
+## <img src="puzzle.gif" width="50" align="center" alt="puzzle" /> Latest  Projects
 
 ### [`narrative-hud`](https://github.com/lotoos0/narrative-hud)
 
@@ -63,37 +63,40 @@ Focus areas:
 
 ## <img src="tools.gif" width="50" align="center" alt="tools" /> Tech Stack
 
-```txt
-Linux · Git · GitHub · Docker · CI/CD · Python · JavaScript · TypeScript · React
-````
+**Core**
+Linux (Arch) · Git · Docker · Python · Bash · TypeScript · React
 
-Also exploring:
+**DevOps & Infrastructure**
+Kubernetes · Helm · Terraform · AWS · GitLab CI/CD · GitHub Actions
 
-```txt
-Kubernetes · Terraform · AWS · Prometheus · Grafana · Bash automation
-```
+**Observability & Resilience**
+Prometheus · Grafana · Envoy · Chaos Engineering
+
+**Exploring**
+FastAPI deeper · Cloud-native patterns · IaC at scale
+
+**Side Projects**
+Solana trading tooling · DeFi data pipelines · on-chain analytics (JS/TS)
 
 ---
 
 ## <img src="brain.gif" width="50" align="center" alt="brain" /> How I Work
 
-* I prefer practical projects over theory
-* I like small, testable slices of work
-* I document problems, decisions, and fixes
-* I use checklists and systems to reduce chaos
-* I focus on building repeatable workflows
+Practical over theoretical. Small slices, clear completion criteria.
+Document decisions, not just results. Systems over willpower.
 
 ---
 
 ## <img src="pin.gif" width="50" align="center" alt="pin" /> Direction
 
-I am currently developing my skills toward:
+Transitioning into DevOps / Cloud Engineering — building toward infrastructure 
+that's observable, resilient, and automated by default.
 
-* DevOps / Cloud Engineering
-* automation-heavy workflows
-* clean project documentation
-* trading-related tools and dashboards
-* systems that support better decision-making
+Parallel track: decision-support tooling for high-noise environments 
+(currently: crypto trading dashboards and on-chain analytics).
+
+I'm drawn to systems where the feedback loop is fast and the cost of being 
+wrong is visible.
 
 ---
 
