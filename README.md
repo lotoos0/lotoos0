@@ -22,18 +22,20 @@ My approach is simple:
 
 ## <img src="puzzle.gif" width="50" align="center" alt="puzzle" /> Latest  Projects
 
-### [`narrative-hud`](https://github.com/lotoos0/narrative-hud)
+### [`resilience-lab`](https://github.com/lotoos0/resilience-lab)
 
-A browser-based HUD for structured narrative analysis and trading decision support.
+A long-term DevOps/SRE lab for building, breaking, observing, and improving a Kubernetes-based microservice system.
 
 Focus areas:
 
-- decision checklists
-- session flow
-- manual scoring
-- lightweight trading workflow support
+* Kubernetes deployments and Helm-based configuration
+* microservice resilience patterns
+* Prometheus, Grafana, metrics, and alerting
+* runbooks and troubleshooting documentation
+* CI/CD, testing, and production-like debugging workflow
 
 ---
+
 
 ### [`memex-sim`](https://github.com/lotoos0/memex-sim)
 
