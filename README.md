@@ -1,111 +1,82 @@
-![hi](Hi_im_Tomasz.gif)
+<p align="center">
+  <img src="./assets/operator-systems-hero.webp" width="100%" alt="Abstract systems map connecting resilient infrastructure, observability signals, and market data" />
+</p>
+
+<h1 align="center">Tomasz <code>/lotoos0</code></h1>
+
+<p align="center">
+  <strong>DevOps · SRE · Automation</strong><br />
+  I build practical systems that make failure visible, operations repeatable,<br />
+  and noisy data easier to act on.
+</p>
+
+<p align="center">
+  <a href="https://www.linux.org/"><img alt="Linux" src="https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white" /></a>
+  <a href="https://www.docker.com/"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /></a>
+  <a href="https://kubernetes.io/"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" /></a>
+  <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /></a>
+  <a href="https://www.typescriptlang.org/"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /></a>
+</p>
 
 ---
 
-I build practical tools around **DevOps, automation, trading systems, and developer workflows**.
-
---- 
-
-My approach is simple:  
-
-![approach](small_projects_typing_erasing_transparent_white.gif)
----
-
-## <img src="rac.gif" width="50" align="center" alt="rocket" /> Current Focus
-
-- Building trading tools for Solana memecoin analysis and decision support
-- Learning DevOps through practical projects instead of pure theory
-- Working with Docker, Linux, GitHub, CI/CD, monitoring, and cloud basics
-- Improving automation, documentation, and clean execution systems
-
----
-
-## <img src="puzzle.gif" width="50" align="center" alt="puzzle" /> Latest  Projects
+## The main system
 
 ### [`resilience-lab`](https://github.com/lotoos0/resilience-lab)
 
-A long-term DevOps/SRE lab for building, breaking, observing, and improving a Kubernetes-based microservice system.
+> A Kubernetes sandbox for practicing cloud-native failure patterns before they hit production.
 
-Focus areas:
+This is where I build, break, observe, and improve a production-shaped microservice system. The lab combines FastAPI services, Redis, Envoy resilience policies, Kubernetes and Helm with a full observability path through Prometheus, Grafana, Loki, alerts, and operational runbooks.
 
-* Kubernetes deployments and Helm-based configuration
-* microservice resilience patterns
-* Prometheus, Grafana, metrics, and alerting
-* runbooks and troubleshooting documentation
-* CI/CD, testing, and production-like debugging workflow
+**Current state:** `v0.1.0 released` · end-to-end stack validated · resilience experiments documented
+
+`Kubernetes` `Helm` `FastAPI` `Envoy` `Prometheus` `Grafana` `Loki` `GitHub Actions`
 
 ---
 
+## Other things I build
 
-### [`memex-sim`](https://github.com/lotoos0/memex-sim)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/lotoos0/memex-sim">memex-sim</a></h3>
+      <p>A DEX-style trading simulator for practicing execution against synthetic OHLC data, market events, positions, and persistent PnL.</p>
+      <p><code>React</code> <code>TypeScript</code> <code>Zustand</code> <code>Lightweight Charts</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/lotoos0/sol_hud">sol_hud</a></h3>
+      <p>An Electron overlay for Solana trading sessions: discipline tools, session tracking, and gamified execution in one focused HUD.</p>
+      <p><code>Electron</code> <code>JavaScript</code> <code>Trading tooling</code></p>
+    </td>
+  </tr>
+</table>
 
-A DEX trading simulator built with React and TypeScript.
+## Current signal
 
-Focus areas:
+- Hardening and documenting `resilience-lab` after its first full release.
+- Going deeper into cloud-native patterns, infrastructure as code, and production-style debugging.
+- Exploring decision-support tools for high-noise environments, especially on-chain and trading workflows.
 
-- chart simulation
-- market events
-- trading practice environment
-- realistic execution training
+## Toolbox
 
----
+| Build | Operate | Observe | Deliver |
+| --- | --- | --- | --- |
+| Python, FastAPI | Linux, Docker | Prometheus, Grafana | Git, GitHub Actions |
+| TypeScript, React | Kubernetes, Helm | Loki, Envoy | GitLab CI/CD |
+| Bash, automation | Terraform, AWS | Chaos engineering | Tests, docs, runbooks |
 
-### [`sol_hud`](https://github.com/lotoos0/sol_hud)
+## Operating principles
 
-An Electron overlay/HUD for Solana trading sessions.
-
-Focus areas:
-
-- desktop overlay
-- trade discipline tools
-- gamified execution
-- session tracking
-
----
-
-## <img src="tools.gif" width="50" align="center" alt="tools" /> Tech Stack
-
-**Core**
-Linux (Arch) · Git · Docker · Python · Bash · TypeScript · React
-
-**DevOps & Infrastructure**
-Kubernetes · Helm · Terraform · AWS · GitLab CI/CD · GitHub Actions
-
-**Observability & Resilience**
-Prometheus · Grafana · Envoy · Chaos Engineering
-
-**Exploring**
-FastAPI deeper · Cloud-native patterns · IaC at scale
-
-**Side Projects**
-Solana trading tooling · DeFi data pipelines · on-chain analytics (JS/TS)
-
----
-
-## <img src="brain.gif" width="50" align="center" alt="brain" /> How I Work
-
-Practical over theoretical. Small slices, clear completion criteria.
-Document decisions, not just results. Systems over willpower.
-
----
-
-## <img src="pin.gif" width="50" align="center" alt="pin" /> Direction
-
-Transitioning into DevOps / Cloud Engineering — building toward infrastructure 
-that's observable, resilient, and automated by default.
-
-Parallel track: decision-support tooling for high-noise environments 
-(currently: crypto trading dashboards and on-chain analytics).
-
-I'm drawn to systems where the feedback loop is fast and the cost of being 
-wrong is visible.
-
----
-
-## <img src="dm.gif" width="50" align="center" alt="contact" /> Contact
-
-You can reach me through GitHub or email:
-
-```txt
-lotoos1998@gmail.com
+```text
+01  Ship small slices with clear completion criteria.
+02  Measure the system, not the intention.
+03  Document decisions and recovery paths.
+04  Prefer repeatable systems over heroic effort.
 ```
+
+## Say hello
+
+<p>
+  <a href="mailto:lotoos1998@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-lotoos1998%40gmail.com-0B1220?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/lotoos0"><img alt="GitHub profile" src="https://img.shields.io/badge/GitHub-%40lotoos0-0B1220?style=flat-square&logo=github&logoColor=white" /></a>
+</p>
