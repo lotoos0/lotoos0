@@ -20,17 +20,27 @@
 
 ---
 
-## The main system
+## Featured systems
 
 ### [`resilience-lab`](https://github.com/lotoos0/resilience-lab)
 
-> A Kubernetes sandbox for practicing cloud-native failure patterns before they hit production.
+**Reliability · SRE · failure engineering**
 
-This is where I build, break, observe, and improve a production-shaped microservice system. The lab combines FastAPI services, Redis, Envoy resilience policies, Kubernetes and Helm with a full observability path through Prometheus, Grafana, Loki, alerts, and operational runbooks.
+A Kubernetes sandbox where I build, break, observe, and improve a production-shaped microservice system. It combines FastAPI services, Redis, Envoy resilience policies, Kubernetes and Helm with Prometheus, Grafana, Loki, alerts, and operational runbooks.
 
 **Current state:** `v0.1.0 released` · end-to-end stack validated · resilience experiments documented
 
 `Kubernetes` `Helm` `FastAPI` `Envoy` `Prometheus` `Grafana` `Loki` `GitHub Actions`
+
+### [`gitops-cloud-lab`](https://github.com/lotoos0/gitops-cloud-lab)
+
+**GitOps · delivery · promotion · rollback**
+
+A local-first lab that moves one FastAPI service through a complete, traceable delivery loop: GitHub Actions → GHCR → Git → Argo CD → Kubernetes. Dev updates automatically; production promotion stays an explicit pull-request decision.
+
+**Current state:** `scope complete` · two environments · promotion, rollback, and failure paths documented
+
+`kind` `GitHub Actions` `GHCR` `Helm` `Argo CD` `Kubernetes`
 
 ---
 
@@ -53,9 +63,8 @@ This is where I build, break, observe, and improve a production-shaped microserv
 
 ## Current signal
 
-- Hardening and documenting `resilience-lab` after its first full release.
-- Going deeper into cloud-native patterns, infrastructure as code, and production-style debugging.
-- Exploring decision-support tools for high-noise environments, especially on-chain and trading workflows.
+- Hardening `resilience-lab` after v0.1.0 and documenting operational recovery paths.
+- Building decision-support tools for high-noise on-chain and trading workflows.
 
 ## Toolbox
 
