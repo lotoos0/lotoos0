@@ -6,8 +6,8 @@
 
 <p align="center">
   <strong>DevOps · SRE · Automation</strong><br />
-  I build practical systems that make failure visible, operations repeatable,<br />
-  and noisy data easier to act on.
+  I build practical systems for what happens after the happy path ends:<br />
+  visible failures, repeatable delivery, and recovery paths people can actually follow.
 </p>
 
 <p align="center">
@@ -26,7 +26,7 @@
 
 **Reliability · SRE · failure engineering**
 
-A Kubernetes sandbox where I build, break, observe, and improve a production-shaped microservice system. It combines FastAPI services, Redis, Envoy resilience policies, Kubernetes and Helm with Prometheus, Grafana, Loki, alerts, and operational runbooks.
+Most demo systems prove the happy path. I built this one for what happens after the timeout, 5xx, or pod kill. FastAPI services, Redis, and Envoy run on Kubernetes while Prometheus, Grafana, Loki, alerts, and runbooks make failures visible before troubleshooting turns into guesswork.
 
 **Current state:** `v0.1.0 released` · end-to-end stack validated · resilience experiments documented
 
@@ -36,7 +36,7 @@ A Kubernetes sandbox where I build, break, observe, and improve a production-sha
 
 **GitOps · delivery · promotion · rollback**
 
-A local-first lab that moves one FastAPI service through a complete, traceable delivery loop: GitHub Actions → GHCR → Git → Argo CD → Kubernetes. Dev updates automatically; production promotion stays an explicit pull-request decision.
+The application is deliberately simple; the delivery path is the project. One FastAPI service moves through GitHub Actions → GHCR → Git → Argo CD → Kubernetes. Dev updates automatically, while production promotion remains an explicit pull-request decision. No cloud bill and no hidden deploy button.
 
 **Current state:** `scope complete` · two environments · promotion, rollback, and failure paths documented
 
@@ -49,22 +49,22 @@ A local-first lab that moves one FastAPI service through a complete, traceable d
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/lotoos0/memex-sim">memex-sim</a></h3>
-      <p>A DEX-style trading simulator for practicing execution against synthetic OHLC data, market events, positions, and persistent PnL.</p>
-      <p><code>React</code> <code>TypeScript</code> <code>Zustand</code> <code>Lightweight Charts</code></p>
+      <h3><a href="https://github.com/lotoos0/discord-bot">discord-bot</a></h3>
+      <p>A multi-guild music bot where <code>/play</code> is the easy part. The useful engineering is isolated per-guild state, asynchronous playlist work, tested cleanup paths, and a Docker-ready runtime.</p>
+      <p><code>Python</code> <code>discord.py</code> <code>asyncio</code> <code>unittest</code> <code>Docker</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/lotoos0/sol_hud">sol_hud</a></h3>
-      <p>An Electron overlay for Solana trading sessions: discipline tools, session tracking, and gamified execution in one focused HUD.</p>
-      <p><code>Electron</code> <code>JavaScript</code> <code>Trading tooling</code></p>
+      <h3><a href="https://github.com/lotoos0/memex-sim">memex-sim</a></h3>
+      <p>A DEX-style simulator that turns synthetic candles, market events, positions, and PnL into a stateful domain model — not just a chart with Buy and Sell buttons.</p>
+      <p><code>React</code> <code>TypeScript</code> <code>Zustand</code> <code>Lightweight Charts</code></p>
     </td>
   </tr>
 </table>
 
-## Current signal
+## Current focus
 
-- Hardening `resilience-lab` after v0.1.0 and documenting operational recovery paths.
-- Building decision-support tools for high-noise on-chain and trading workflows.
+- Hardening `resilience-lab` after v0.1.0 and turning experiments into useful recovery documentation.
+- Improving the boring but important parts: delivery paths, failure evidence, rollback, and runbooks.
 
 ## Toolbox
 
