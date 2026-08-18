@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/operator-systems-hero.webp" width="100%" alt="Abstract systems map connecting resilient infrastructure, observability signals, and market data" />
+  <img src="./assets/operator-systems-hero.png" width="100%" alt="GitOps delivery loop from Git through CI/CD, registry, Kubernetes, and observability" />
 </p>
 
 <h1 align="center">Tomasz <code>/lotoos0</code></h1>
